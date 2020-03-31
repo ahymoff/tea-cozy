@@ -1,0 +1,198 @@
+html, body, a {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  z-index: 999;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-flex;
+  padding: 0px 10px;
+}
+
+.nav a {
+  text-decoration: underline;
+}
+
+/* Containers */
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Hero */
+
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+  height: 700px;
+  width: 1200px;
+  margin-bottom: 80px;
+  background-size: cover;
+  background-image: url(/Users/AaronHymoff/Desktop/Projects/Codecademy/04-Positioning/02-Tea_Cozy/Resources/Images/mission-background.jpg);
+}
+
+.hero-tagline {
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+}
+
+
+/* Tea of the Month */
+
+.content2-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+  width: 1000px;
+  margin-bottom: 80px;
+}
+
+.content2-text {
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.image-card {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+.image-card img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.image-card h4 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+  height: 500px;
+  width: 1200px;
+  margin-bottom: 80px;
+  background-size: cover;
+  background-image: url(/Users/AaronHymoff/Desktop/Projects/Codecademy/04-Positioning/02-Tea_Cozy/Resources/Images/locations-background.jpg);
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.location-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-card {
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 300px;
+}
+
+/* Contact */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hi */
